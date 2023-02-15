@@ -1,0 +1,4 @@
+@EndUserText.label: 'last'
+define service Zsrvlast {
+  expose ZCDS_LAST;
+}

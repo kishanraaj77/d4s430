@@ -1,0 +1,11 @@
+@EndUserText.label: 'ACTRL'
+@MappingRole: true
+define role ZCDS13ACTRL {
+    grant
+        select
+            on
+                ZCDS13
+                    where
+                        CARRID <> 'AA' ;
+                        
+}

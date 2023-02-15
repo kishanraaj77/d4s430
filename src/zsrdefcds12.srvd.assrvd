@@ -1,0 +1,4 @@
+@EndUserText.label: 'CDS12SD'
+define service ZSRDEFCDS12 {
+  expose ZCDS12;
+}

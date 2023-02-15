@@ -1,0 +1,11 @@
+@EndUserText.label: 'GRNYT'
+@MappingRole: true
+define role ZCDGRNT {
+    grant
+        select
+            on
+                ZCDS23
+                    where
+                         CARRID = 'LH';
+                        
+}
